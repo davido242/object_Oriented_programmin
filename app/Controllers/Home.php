@@ -12,10 +12,10 @@ class Home extends BaseController
 		return view('welcome_message');
 	}
 
-	// public function help()
-	// {
-	// 	return view('welcome_message');
-	// }
+	public function sucess_page()
+	{
+		return view('list');
+	}
 
 	//--------------------------------------------------------------------
 

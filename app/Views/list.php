@@ -2,16 +2,21 @@
 <html>
 <head>
 	<title>FCT list</title>
+	<?php echo view('includes/header');?>
+	<style type="text/css">
+		h2{
+			text-align: center;
+			margin: 70px 10px;
+		}
+	</style>
+	
 </head>
 <body>
-	<h2>FCT List</h2>
+	<h2>Login Successfully!</h2>
 	<?php 
-		$userName = $_POST["username"];
+		$userName = $_REQUEST["username"];
 
-		echo "<h2> THis your name called $userName is Stupid</h2>"
-
-
-
+		echo "<h2> This your name called $userName is Awesome!!</h2>"
 	?>
 </body>
 </html>
